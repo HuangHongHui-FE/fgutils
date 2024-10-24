@@ -1,6 +1,6 @@
 {
   "name": "fgutils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "发布npm包，整套流程开发demo",
   "main": "dist/fgutils.umd.min.js",
   "module": "dist/fgutils.esm.js",
@@ -36,12 +36,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shenshuai89/sumfunctionmethod.git"
+    "url": "https://github.com/HuangHongHui-FE/fgutils.git"
   },
   "bugs": {
-    "url": "https://github.com/shenshuai89/sumfunctionmethod/issues"
+    "url": "https://github.com/HuangHongHui-FE//issues"
   },
-  "homepage": "https://github.com/shenshuai89/sumfunctionmethod#readme",
+  "homepage": "https://github.com/HuangHongHui-FE/#readme",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-customizable"
@@ -83,5 +83,8 @@
     "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-serve": "^1.1.0",
     "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^19.5.0"
   }
 }
